@@ -15,7 +15,7 @@ class UserEngagementDispatcher(Model):
                     'title': title,
                     'subtitle': title,
                     'description': title,
-                    'image_url': ' '
+                    'image_url': 'https://cdn.filestackcontent.com/eDG66zx1TIqmpLy9T931'
                 }).save()
                 print('Message to user id {0} sent!'.format(user.id))
         print('All engagement messages sent')
