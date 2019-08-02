@@ -8,7 +8,7 @@ class UserEngagementDispatcher(Model):
         organization = Organization.find()
         for user in User.all():
             if user.score <= 0:
-                title = 'Hey {0}: It has been a while since we last saw you at an event'.format(user.name, user.score)
+                title = 'Hey {0}: Its been a while. Check out our new events and articles'.format(user.name, user.score)
                 DotMessage({
                     'user': user,
                     'organization': organization,
