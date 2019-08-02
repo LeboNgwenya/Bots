@@ -13,6 +13,6 @@ class PositivityBotDispatcher(Model):
                 'title': title,
                 'subtitle': title,
                 'description': title,
-                'image_url': 'https://cdn.filestackcontent.com/SdMWlmneRyiQBCxG4KUw'
+                'image_url': 'https://cdn.filestackcontent.com/TUL26wdTRMCsAbz0KGih'
             }).save()
         print('All positivity messages sent')
