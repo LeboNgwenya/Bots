@@ -13,6 +13,6 @@ class ReminderBotDispatcher(Model):
                 'title': title,
                 'subtitle': title,
                 'description': title,
-                'image_url': ''
+                'image_url': 'https://cdn.filestackcontent.com/vJrZNN3yQoaVphCezFBz'
             }).save()
         print('All Reminder messages sent')
